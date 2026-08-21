@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 34, 34, 34;
+  --background-start-rgb: 253, 251, 247;
+  --background-end-rgb: 249, 244, 239;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  min-height: 100vh;
+}
+
+/* Custom CSS variables matching the South Indian Theme */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F5D061, #c7971e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
