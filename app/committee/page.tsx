@@ -53,8 +53,8 @@ export default function CommitteePage() {
               role: m.role || 'Trustee',
               roleTa: m.role_ta || m.role || 'அறங்காவலர்',
               photo: photoUrl,
-              bio: m.bio || 'Managing and coordinating temple protection initiatives across Tamil Nadu.',
-              bioTa: m.bio_ta || 'தமிழ்நாடு முழுவதும் திருக்கோயில் பாதுகாப்பு பணிகளை ஒருங்கிணைத்து வழிநடத்துகிறார்.',
+              bio: m.bio || 'Managing and coordinating temple protection initiatives across India.',
+              bioTa: m.bio_ta || 'இந்தியா முழுவதும் திருக்கோயில் பாதுகாப்பு பணிகளை ஒருங்கிணைத்து வழிநடத்துகிறார்.',
             }
           })
           setTrustees(formatted)
